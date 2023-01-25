@@ -1,2 +1,2 @@
 # Practicing-nodeJS
-Sketches and studies to practice more nodeJS and git/github.
+Somes sketches and studies to practice more nodeJS and git/github.
