@@ -1,11 +1,8 @@
-//log
+const test = true
 
-const variavel = true
+console.log(245)
+console.log('i am a text')
+console.log(test)
 
-// console.log(245)
-// console.log('i am a text')
-// console.log(variavel)
-
-//tratamento de erros
-
+//error
 console.error('deu erro!')

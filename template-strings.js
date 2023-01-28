@@ -12,7 +12,7 @@ const presentation =
 
 console.log(presentation)
 
-//Método com Tempante String
+//Method with template string.
 
 const presentation2 = `Hi! My name is ${myName}, my age is ${age}, i am from ${cityOfBirth}`
 console.log(presentation2)

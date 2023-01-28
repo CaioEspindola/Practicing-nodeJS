@@ -1,14 +1,14 @@
-//Declara uma variavel com uma função de valor.
+//Function Expression:
 
-const soma = function (numb1, numb2) {
-  return numb1 + numb2
+//Declare one variable with a function in its value.
+const sum = function (num1, num2) {
+  return num1 + num2
 }
+console.log(sum(5, 5))
 
-console.log(soma(5, 5))
+//Its possible call a function declareted befor she exist.
+console.log(introduce())
 
-//É possivel chamarmos a função declarada antes dela existir
-console.log(apresentar())
-
-function apresentar() {
+function introduce() {
   return 'Hello!'
 }

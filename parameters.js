@@ -1,26 +1,30 @@
-// Parametro de função
+// Parameters and Arguments.
 
-function soma(numb1, numb2) {
-  return numb1 + numb2
+//Ex: 1
+
+//            Parameters
+function sum(num1, num2) {
+  return num1 + num2
 }
 
-console.log(soma(2, 2))
-console.log(soma(50, 50))
-console.log(soma(-500, 450))
+console.log(sum(2, 2)) //Arguments
+console.log(sum(50, 50))
+console.log(sum(-500, 450))
 
-//parametos e argumentos
+//Ex: 2
 
-//Order of parameters
-
+//               Parameters
 function NameAge(name, age) {
   return `My name is ${name}! I am ${age} years old.`
 }
 
-console.log(NameAge('Caio', 35))
-console.log(NameAge(35, 'Caio'))
+console.log(NameAge('Caio', 35)) //Arguments
 
-function multiplication(numb1, numb2) {
-  return numb1 * numb2
+//Ex: 3
+
+//                      Parameters
+function multiplication(num1, num2) {
+  return num1 * num2
 }
 
-console.log(multiplication(soma(5, 5), soma(5, 5)))
+console.log(multiplication(sum(5, 5), sum(5, 5))) //Arguments

@@ -1,6 +1,6 @@
-// Operador Ternário. Compara e retorna True or False.
+// Ternary operator. Compare and return True or False.
 
-// Método if.
+// Method if.
 
 const minAge = 18
 const clientAge = 16
@@ -11,6 +11,5 @@ if (clientAge >= minAge) {
   console.log('Juice')
 }
 
-//Outro método, mas não é muito recomendado.
-
+//Another method, but it is not recommended.
 console.log(clientAge >= minAge ? 'Cerveja' : 'Suco')

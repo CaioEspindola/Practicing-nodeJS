@@ -1,24 +1,18 @@
-const name = 'Caio'
+// Arrow Function:
 
-function introduce(name) {
-  return 'My name is ${name}'
-}
+// With one line. Don't need return.
+const exArrow = name => `My name is ${name}`
+console.log(exArrow('Caio'))
 
-// Arrow Function
-const exArrow1 = name => 'My name is ${name}'
-console.log(exArrow1('Caio'))
+const sum = (num1, num2) => num1 + num2
+console.log(sum(25, 25))
 
-const soma = (num1, num2) => num1 + num2
-console.log(soma(25, 25))
-
-//Arrow function with more lines
-
-const somaNumber = (num1, num2) => {
+// With more lines. Need return.
+const sumNumber = (num1, num2) => {
   if (num1 > 5 || num2 > 5) {
     return 'Somente numeros de 1 a 9'
   } else {
     return num1 + num2
   }
 }
-
-console.log(somaNumber(2, 2))
+console.log(sumNumber(2, 2))

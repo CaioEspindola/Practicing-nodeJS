@@ -1,6 +1,4 @@
-// Three ways to write functions:
-
-// 1- Function Declaration:
+//Function Declaration:
 
 //                Parameters
 function printText(text) {
@@ -12,10 +10,7 @@ printText('Hi!')
 printText('Hello World!')
 
 //Function without parameters
-function soma() {
+function sum() {
   return 2 + 2
 }
-console.log(soma())
-
-// 2 Function Expression
-// 3 Generation Function
+console.log(sum())
